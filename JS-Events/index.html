@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main d-flex">
+        <button onmouseover="hoverEvent(this)" onmouseleave="endHoverEvent(this)"   onclick="removeElement(this)" class="remove">Remove</button>
+        <button onmouseover="hoverEvent(this)" onmouseleave="endHoverEvent(this)" onclick="changeText(this)" id="change-text">Change Text</button>
+        <button onmouseover="hoverEvent(this)" onmouseleave="endHoverEvent(this)" onclick="counter(this)" id="counter">0</button>
+        <button onmouseover="hoverEvent(this)" onmouseleave="endHoverEvent(this)" onclick="countDown(this)" id="count-down">Count Down</button>
+        <button onmouseover="hoverEvent(this)" onmouseleave="endHoverEvent(this)" id="hover-event">Hover Event</button>
+        <div id="form">
+            <input input type="search" placeholder="search..." id="search">
+            <button onmouseover="hoverEvent(this)" onmouseleave="endHoverEvent(this)" class="go-button" onclick="searchAlert()">Go</button>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
